@@ -1,19 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <link rel="stylesheet" href="advstyles.css">
         <title>Advanced Search</title>
     </head>
     <body>
-        <form action="https://www.google.com/search">
-            <label for="as_q">all these words:</label>
-            <input type="text" name="as_q"><br><br>
-            <label for="as_epq">this exact word or phrase:</label>
-            <input type="text" name="as_epq"><br><br>
-            <label for="as_oq">any of these words:</label>
-            <input type="text" name="as_oq"><br><br>
-            <label for="as_eq">none of these words:</label>
-            <input type="text" name="as_eq"><br><br>
-            <input type="submit" value="Google Search">
-        </form>
+        <p name="options">
+            <a href="index.html">Google Search</a>
+            <a href="imagesearch.html">Google Image Search</a>
+        </p>
+        <h1 color="red">
+            Advanced Search
+        </h1>
+        <div class="advform">
+            <form action="https://www.google.com/search">
+                <label for="as_q">all these words:</label>
+                <input id="advInput" type="text" name="as_q"><br><br>
+                <label for="as_epq">this exact word or phrase:</label>
+                <input id="advInput" type="text" name="as_epq"><br><br>
+                <label for="as_oq">any of these words:</label>
+                <input id="advInput" type="text" name="as_oq"><br><br>
+                <label for="as_eq">none of these words:</label>
+                <input id="advInput" type="text" name="as_eq"><br><br>
+                <input type="submit" value="Advanced Search">
+            </form>
+        </div>
     </body>
 </html>
