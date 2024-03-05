@@ -1,0 +1,57 @@
+.advform {
+  justify-content: center;
+  background-color: white;
+}
+
+
+#advInput {
+  background-color: white;
+  position: relative;
+  margin: 0 auto;
+  width: 300px;
+  max-width: 584px;
+  border-radius: 1px;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #c0c0c0;
+  font-size: 13px;
+  height: 25px;
+  padding: 1px 8px;
+}
+
+h1 {
+  display: flex;
+  justify-content: left;
+  color: #d93025;
+  font-size: 20px;
+  margin: 25px 35px;
+  font-family: arial, sans-serif;
+}
+
+p {
+  display: flex;
+  justify-content: flex-end;
+  align-content: space-evenly;
+}
+
+a {
+  color: grey;
+  font-size: 12px;
+  text-decoration: none;
+  margin: 10px;
+}
+
+input[type="submit"] {
+  box-shadow: none;
+  display: flex;
+  justify-content: flex-end;
+  background-color: #4d90fe;
+  border: 1px solid #3079ed;
+  color: #fff;
+  border-radius: 2px;
+  cursor: default;
+  font-size: 11px;
+  font-weight: bold;
+  text-align: center;
+  white-space: nowrap;
+
+}
