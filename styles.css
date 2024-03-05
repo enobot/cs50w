@@ -1,5 +1,19 @@
 body {
   background-color: #202124;
+  font-family: Roboto, arial, sans-serif;
+}
+
+p {
+  display: flex;
+  justify-content: flex-end;
+  align-content: space-evenly;
+}
+
+a {
+  color: white;
+  font-size: 12px;
+  text-decoration: none;
+  margin: 10px;
 }
 
 h1 {
@@ -22,4 +36,27 @@ input[type=text] {
   margin: 0 auto;
   width: 638px;
   max-width: 584px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+#button {
+  background-color: #303134;
+  border: 1px solid #303134;
+  border-radius: 4px;
+  color: #e8eaed;
+  font-family: Roboto, arial, sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
 }
